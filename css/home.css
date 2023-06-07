@@ -35,6 +35,7 @@ body {
     flex-direction: column;
     width: 100%;
     height: 896px;
+
   }
 
   .statusbar{
@@ -103,7 +104,7 @@ body {
     align-items: flex-end;
     justify-content: center;
     flex-direction: column;
-    margin-top: 340px;
+    margin-top: 357px;
     margin-right: 7px;
     height: auto;
   }
@@ -180,3 +181,195 @@ body {
     color: #fff;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
   }
+
+  .user-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 127px;
+    height: 21px;
+    margin-top: 5px;
+    margin-left: 12px;
+  }
+
+  .user-container > #username{
+    color: #ffff;
+    font-family: 'Proxima-Nova-Font';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .user-container > #dot{
+    color: #ffff;
+    font-family: 'Proxima-Nova-Font';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 60%;
+  }
+
+  .user-container > #count{
+    color: #ffff;
+    font-family: 'Proxima-Nova-Font';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 60%;
+  }
+
+  .hashtagsongtitle-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 12px;
+  }
+
+  .hashtag{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 332px;
+    height: 20px;
+    margin-top: 5px;
+  }
+
+  .hashtag > #hashtag{
+    color: #ffff;
+    font-family: 'Proxima-Nova-Font';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+
+  .song-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 20px;
+    margin-top: 7px;
+  }
+
+  .song-container > div > #songtitle{
+    color: #ffff;
+    font-family: 'Proxima-Nova-Font';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 9px;
+
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 5.21%, rgba(255, 255, 255, 0.9) 95.83%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .disc-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49px;
+    height: 49px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: conic-gradient(from 178.83deg at 50% 50%, #373736 -43.11deg, #171717 45.25deg, #373736 138.18deg, #171717 226deg, #373736 316.89deg, #171717 405.25deg);
+  }
+
+  .disc-container > #disc {
+    height: 27px;
+    width: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+  }
+
+  .disc-container > #disc > #disc-image{
+    height: 27px;
+    width: 27px;
+    background-image: url("../images/pictures/Ellipse 2.jpg");
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
+  .hashtagsongtitle-container > #tones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 53.18px;
+    height: 76.11px;
+    left: 320px;
+    top: 750.23px;
+    z-index: 1;
+  }
+
+  .bottomnav-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 82.67px;
+    margin-top: 12.33px;
+    background-color:black;
+  }
+    
+  .botnav-icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: 37.5px;
+  }
+
+  .botnav-icons-container > .icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 40px;
+    height: 37.5px;
+  }
+
+  .middlebutton-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 43px;
+    height: 28px;
+  }
+
+  .icon-container > #icontitle-select{
+    color: #ffff;
+    font-family: 'Proxima-Nova-Font';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+
+  }
+  .icon-container > #icontitle{
+    color: #ffff;
+    font-family: 'Proxima-Nova-Font';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+  }
+
+  .slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5px;
+    margin-top: 23.5px;
+    margin-bottom: 10px;
+  }
+
+
